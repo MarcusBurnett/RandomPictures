@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+}
+
+button:focus {outline:0;}
+input:focus {outline:0;}
+
+::placeholder {
+    color: white;
+
+}
+
+#row {
+    height: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: stretch;
+    margin: 0 auto;
+}
+
+#i {
+    color: rgb(223, 223, 26);
+}
+
+#header {
+    width: 100%;
+    float: left;
+    padding: 10px;
+    font-family: 'koHo', sans-serif;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background: rgb(36, 36, 128);
+    box-shadow: 0 5px 5px grey;
+
+}
+h1 {
+    margin-right: 70px;
+    font-family: 'koHo', sans-serif;
+    text-transform: uppercase;
+    font-size: 32px;
+    color: white;
+}
+input {
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    margin: 0 10px;
+    background: rgba(0, 0, 255, 0);
+    border: 3px solid lightgrey;
+    padding: 0 10px;
+    font-size: 16px;
+    color: white;
+    font-family: 'koHo', sans-serif;
+}
+
+button {
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    margin: 0 10px;
+    color: white;
+    background: rgba(255, 255, 255, 0);
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    font-family: 'koHo', sans-serif;
+
+}
+
+button:hover {
+    background: rgb(223, 223, 26);
+    color: rgb(36, 36, 128);
+    transition: 1s;
+    cursor: pointer;
+}
+#wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    float: left;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-content: center;
+}
+.picture {
+    max-width: 30%;
+    max-height: 300px;
+    margin: 1.66%;
+    box-shadow: 2px 5px 5px black;
+    border-radius: 15px;
+}
